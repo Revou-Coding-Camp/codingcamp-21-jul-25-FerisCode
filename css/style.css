@@ -27,7 +27,41 @@ li {
 #DaftarTodo {
     max-height: 200px;
     overflow-y: auto;
-    padding:10px;
-    border: 1px solid #ccc;
+    padding: 10px;
+    border: none;
     border-radius: 8px;
+    background: #232946; /* task list jadi hitam */
+    color: #fff;
+}
+
+section.max-w-xl {
+    background-color: peachpuff;
+    border: peachpuff;
+    border-radius: 1rem;
+    color: #fff;                   
+}
+
+.todo-card {
+    background: peachpuff;
+    border-radius: 20px;
+    box-shadow: 0 4px 24px 0 #23294633;
+    padding: 32px 24px;
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.todo-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color: #232946;
+}
+
+form, section.max-w-xl {
+    background: none;
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    padding: 0;
 }
